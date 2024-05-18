@@ -43,7 +43,7 @@ from openai import OpenAI
 openai_api_key = OpenAI(
     # Defaults to os.environ.get("OPENAI_API_KEY")
 )
-os.environ["OPENAI_MODEL_NAME"] = 'gpt-3.5-turbo'
+os.environ["OPENAI_MODEL_NAME"] = 'gpt-3.5-turbo' #'gpt-4o' 
 
 
 # ## Creating Agents
